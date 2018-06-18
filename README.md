@@ -1,4 +1,4 @@
-Financial Modeling Prep API
+#Financial Modeling Prep API
 
 The reliable, enterprise API that powers FinancialModelingPrep. Free for everyone
 
