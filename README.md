@@ -75,7 +75,7 @@ https://financialmodelingprep.com/api/cryptocurrency
 
 This API provide a wide range of data feed for most digital and crypto currency such as Bitcoin.
 
-https://financialmodelingprep.com/api/cryptocurrency/AAPL
+https://financialmodelingprep.com/api/cryptocurrency/BTC
 
 ## Currency exchange rates (FX)
 
