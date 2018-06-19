@@ -95,13 +95,13 @@ This API returns most of the majors indexes (Dow Jones, Nasdaq, S&P 500)
 
 https://financialmodelingprep.com/api/majors-indexes
 
-##Single Stock market index (Dow Jones)
+## Single Stock market index (Dow Jones)
 
 This API returns stock market index (Dow Jones)
 
 https://financialmodelingprep.com/api/majors-indexes/.DJI
 
-##Stock Market Sectors Performance
+## Stock Market Sectors Performance
 
 This API returns Stock Market Sectors Performance
 
