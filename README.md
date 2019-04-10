@@ -2,6 +2,8 @@
 
 The reliable, enterprise API that powers FinancialModelingPrep. Free for everyone
 
+Official page: https://financialmodelingprep.com/developer/docs
+
 ## Companies Financial Statements
 
 This API returns companies income statements.
