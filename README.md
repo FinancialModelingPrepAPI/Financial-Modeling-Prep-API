@@ -6,9 +6,9 @@ Official page: https://financialmodelingprep.com/developer/docs
 
 ## Companies Financial Statements
 
-This API returns companies income statements.
+This API returns companies  **annual** income statements.
 
-https://financialmodelingprep.com/api/financials/income-statement/AAPL
+https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL
 
 This API returns companies balance sheet statements.
 
