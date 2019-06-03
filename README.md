@@ -149,13 +149,13 @@ Stock historical prices with change and volume
 
 https://financialmodelingprep.com/api/v3/historical-price-full/AAPL
 
- **Historical price with change and volume interval **
+ **Historical price with change and volume interval**
  
  Time series stock historical prices for a certain interval
  
  https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?from=2018-03-12&to=2019-03-12
  
-  **Historical price with change and volume Time series **
+  **Historical price with change and volume Time series**
  
  Time series stock historical prices with change and volume for the last x days
  
