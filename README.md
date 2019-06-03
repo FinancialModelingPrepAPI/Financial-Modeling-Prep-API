@@ -10,21 +10,21 @@ This API returns companies  **annual** income statements.
 
 https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL
 
-This API returns companies  **quarter** income statements.
-
-https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL?period=quarter
-
 This API returns companies  **annual** balance sheet statements.
 
 https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL
 
-This API returns companies  **quater** balance sheet statements.
-
-https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?period=quarter
-
 This API returns companies  **annual**  cash flow statements.
 
 https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL
+
+This API returns companies  **quarter** income statements.
+
+https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL?period=quarter
+
+This API returns companies  **quarter** balance sheet statements.
+
+https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?period=quarter
 
 This API returns companies  **quarter**  cash flow statements.
 
