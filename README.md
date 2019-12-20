@@ -4,21 +4,58 @@ The reliable, enterprise API that powers FinancialModelingPrep. Free for everyon
 
 Official page: https://financialmodelingprep.com/developer/docs
 
+## Table of Contents
+
+1. **[Company Valuation](#company-valuation)**
+
+	  -  *[Companies Profile](#companies-profile)*
+	  -  *[Companies Financial Statements](#companies-financial-statements)*
+	  -  *[Company Financial Ratios](#company-financial-ratios)*
+	  -  *[Company Enterprise Value](#company-enterprise-value)*
+	  -  *[Company Key Metrics](#company-key-metrics)*
+	  -  *[Company Financial Growth](#company-financial-growth)*
+	  -  *[Companies Rating](#companies-rating)*
+	  -  *[Companies Discounted Cash Flow Value](#companies-discounted-cash-flow-value)*
+2. **[Stock Time Series](#stock-time-series)**
+
+	  -  *[Stock Realtime Price](#stock-realtime-price)*
+	  -  *[Stock Historical Price](#stock-historical-price)*
+	  -  *[Batch Request Stock Companies Price](#batch-request-stock-companies-price)*
+3. **[Stock Market](#stock-market)**
+
+	  -  *[Most of the majors indexes](#most-of-the-majors-indexes)*
+	  -  *[Most Active Stock Companies](#most-active-stock-companies)*
+	  -  *[Most Gainer Stock Companies](#most-gainer-stock-companies)*
+	  -  *[Most Loser Stock Companies](#most-loser-stock-companies)*
+		-  *[NYSE Holidays and Trading Hours](#nyse-holidays-and-trading-hours)*
+		-  *[Stock Market Sectors Performance](#stock-market-sectors-performance)*
+4. **[Cryptocurrencies](#cryptocurrencies)**
+
+	-  *[Digital and Cryptocurrencies](#digital-and-cryptocurrencies)*
+	-  *[Single Cryptocurrency such as Bitcoin](#single-cryptocurrency-such-as-bitcoin)*
+5. **[Forex](#forex)**
+
+	-  *[Forex Currency Exchange Rate](#forex-currency-exchange-rate)*
+	-  *[Single Currency such as Euro-dollars](#single-currency-such-as-euro-dollars)*
+
+---
 
 # Company Valuation
 
-## Companies profile
+---
+
+## Companies Profile
 
 This API returns companies profile (Price, Beta, Volume Average, Market Capitalisation, Last Dividend, 52 week range, stock price change, stock price change 
 in percentage, Company Name, Exchange, Description, Industry, Sector, CEO, Website and image).
 
 https://financialmodelingprep.com/api/v3/company/profile/AAPL
 
+---
 
 ## Companies Financial Statements
 
  **Income statements**
- 
 Annual income statements
 
 https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL
@@ -32,7 +69,6 @@ Downloadable CSV file:
 https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL?datatype=csv
 
  **Balance Sheet Statement**
- 
 Annual balance sheet statements
 
 https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL
@@ -46,7 +82,6 @@ Downloadable CSV file:
 https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?datatype=csv
 
  **Cash Flow Statement**
- 
  Annual cash flow statements
  
  https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL
@@ -59,12 +94,16 @@ https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL
   
  https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL?datatype=csv
  
+ ---
+ 
 ## Company Financial Ratios
 
 Company financial ratios (liquidity Measurement Ratios, Profitability Indicator Ratios, Debt Ratios, Operating Performance Ratios, Cash Flow Indicator Ratios and Investment Valuation Ratios)
 
 https://financialmodelingprep.com/api/v3/financial-ratios/AAPL
- 
+
+---
+
 ## Company Enterprise Value
 
 Company annual enterprise value
@@ -75,6 +114,8 @@ Company quarterly enterprise value
 
 https://financialmodelingprep.com/api/v3/enterprise-value/AAPL?period=quarter
 
+---
+
 ## Company Key Metrics
 
 Company annual key metrics
@@ -84,7 +125,9 @@ https://financialmodelingprep.com/api/v3/company-key-metrics/AAPL
 Company quarterly company key metrics
 
 https://financialmodelingprep.com/api/v3/company-key-metrics/AAPL?period=quarter
- 
+
+---
+
 ## Company Financial Growth
 
 Company annual financial statement growth
@@ -95,13 +138,17 @@ Company quarterly financial statement growth
 
 https://financialmodelingprep.com/api/v3/financial-statement-growth/AAPL?period=quarter
 
+---
+
 ## Companies Rating
 
 This API returns companies rating.
 
 https://financialmodelingprep.com/api/v3/company/rating/AAPL
 
-## Companies Discounted cash flow value (intrinsic value)
+---
+
+## Companies Discounted Cash Flow Value
 
  **DCF**
 
@@ -119,9 +166,13 @@ Companies Historical Discounted cash flow value
 
 https://financialmodelingprep.com/api/v3/company/historical-discounted-cash-flow/AAPL?period=quarter
 
+---
+
 # Stock Time Series
 
-## Stock Price
+---
+
+## Stock Realtime Price
 
  **Stock Realtime Price**
 
@@ -135,7 +186,9 @@ https://financialmodelingprep.com/api/v3/company/historical-discounted-cash-flow
  
  https://financialmodelingprep.com/api/v3/stock/real-time-price
  
-## Stock Price
+---
+ 
+## Stock Historical Price
 
  **Historical price**
 
@@ -167,11 +220,15 @@ https://financialmodelingprep.com/api/v3/historical-price-full/AAPL
  
  https://financialmodelingprep.com/api/v3/historical-price-full/AAPL,GOOG,FB
  
+ ---
+ 
  ## Symbols List
  
  All Companies ticker symbols available in Financial Modeling Prep
  
  https://financialmodelingprep.com/api/v3/company/stock/list
+
+---
 
 ## Batch Request Stock Companies Price
 
@@ -179,9 +236,13 @@ Multiple companies Prices
 
 https://financialmodelingprep.com/api/v3/stock/real-time-price/AAPL,FB,GOOG
 
+---
+
 # Stock Market
 
-## Most of the majors indexes (Dow Jones, Nasdaq, S&P 500)
+---
+
+## Most of the majors indexes
 
 **Majors Indexes List**
 
@@ -195,11 +256,15 @@ Stock market index (Dow Jones)
 
 https://financialmodelingprep.com/api/v3/majors-indexes/.DJI
 
+---
+
 ## Most Active Stock Companies
 
 Most Active Stock Companies
 
 https://financialmodelingprep.com/api/v3/stock/actives
+
+---
 
 ## Most Gainer Stock Companies
 
@@ -207,11 +272,15 @@ Most Gainer Stock Companies
 
 https://financialmodelingprep.com/api/v3/stock/gainers
 
+---
+
 ## Most Loser Stock Companies
 
 Most Losers Stock Companies
 
 https://financialmodelingprep.com/api/v3/stock/losers
+
+---
 
 ## NYSE Holidays and Trading Hours
 
@@ -219,13 +288,19 @@ NYSE Holidays and Trading Hours
 
 https://financialmodelingprep.com/api/v3/is-the-market-open
 
+---
+
 ## Stock Market Sectors Performance
 
 Stock Market Sectors Performance
 
 https://financialmodelingprep.com/api/v3/stock/sectors-performance
 
+---
+
 # Cryptocurrencies
+
+---
 
 ## Digital and Cryptocurrencies
 
@@ -233,21 +308,29 @@ Wide range of data feed for digital and Cryptocurrencies
 
 https://financialmodelingprep.com/api/v3/cryptocurrencies
 
-## Signle Cryptocurrency such as Bitcoin
+---
+
+## Single Cryptocurrency such as Bitcoin
 
 This API provide a wide range of data feed for most digital and crypto currency such as Bitcoin.
 
 https://financialmodelingprep.com/api/v3/cryptocurrency/BTC
 
-# Forex (FX)
+---
 
-## Forex Currency Exchange Rate (FX)
+# Forex
+
+---
+
+## Forex Currency Exchange Rate
 
 Currency exchange rates (FX)
 
 https://financialmodelingprep.com/api/v3/forex
 
-## Single Currency such as Euro-dollars (EUR/USD)
+---
+
+## Single Currency such as Euro-dollars
 
 Currency exchange rate such as Euro-dollars (EUR/USD)
 
