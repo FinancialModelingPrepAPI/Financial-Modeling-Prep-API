@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://media-exp1.licdn.com/dms/image/C560BAQGdsb1ki1epnA/company-logo_200_200/0?e=1589414400&v=beta&t=6zpvnUb9tTnCAe30BQMbUSEzpD78wxecvHnymfQCyn0" alt="Financial Statement API" width="150">
+  <img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/68902706_1931454930289205_1053923784039333888_n.png?_nc_cat=106&_nc_ohc=Rhhto6UFWowAX_k3FKs&_nc_ht=scontent-cdt1-1.xx&oh=33f4723328e5ebe9bd0cb7de37175fa5&oe=5ED26F2E" alt="Financial Statement API" width="150">
   <br>
   Financial Modeling Prep API
 </h1>
