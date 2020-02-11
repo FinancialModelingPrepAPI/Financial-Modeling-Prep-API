@@ -1,14 +1,21 @@
-# Financial Modeling Prep API
+<h1 align="center">
+  <img src="https://media-exp1.licdn.com/dms/image/C560BAQGdsb1ki1epnA/company-logo_200_200/0?e=1589414400&v=beta&t=6zpvnUb9tTnCAe30BQMbUSEzpD78wxecvHnymfQCyn0" alt="Financial Statement API" width="150">
+  <br>
+  Financial Modeling Prep API
+</h1>
 
-The reliable, enterprise API that powers FinancialModelingPrep. Free for everyone
+<h4>A <a href="https://financialmodelingprep.com/developer/docs">financial statement API</a> free for everyone, you can also find real-time stock prices and historical stock data prices.</h4>
 
-Official page: https://financialmodelingprep.com/developer/docs
+📖Official page: https://financialmodelingprep.com/developer/docs 
+🛠Support: info@financialmodelingprep.com
 
 ## Table of Contents
 
 1. **[Company Valuation](#company-valuation)**
 
 	  -  *[Companies Profile](#companies-profile)*
+	  -  *[Companies Quotes](#companies-quotes)*
+	  -  *[Ticker Search](#ticker-search)*
 	  -  *[Companies Financial Statements](#companies-financial-statements)*
 	  -  *[Company Financial Ratios](#company-financial-ratios)*
 	  -  *[Company Enterprise Value](#company-enterprise-value)*
@@ -52,6 +59,24 @@ in percentage, Company Name, Exchange, Description, Industry, Sector, CEO, Websi
 https://financialmodelingprep.com/api/v3/company/profile/AAPL
 
 ---
+
+## Companies Quotes
+
+This API returns companies quotes (symbol | price | change | previousClose | dayLow | dayHigh | yearHigh | yearLow | marketCap | priceAvg50 | priceAvg200 | volume | avgVolume) in real-time.
+
+https://financialmodelingprep.com/api/v3/quote/AAPL,FB
+
+---
+
+## Ticker Search
+
+Stock Search by Company Name, Ticker Name and Stock Exchange
+Values for exchange parameter are: ETF | MUTUAL_FUND | COMMODITY | INDEX | CRYPTO | FOREX | TSX | AMEX | NASDAQ | NYSE | EURONEXT
+
+https://financialmodelingprep.com/api/v3/search?query=AA&limit=10&exchange=NASDAQ
+
+---
+
 
 ## Companies Financial Statements
 
@@ -166,6 +191,7 @@ Companies Historical Discounted cash flow value
 
 https://financialmodelingprep.com/api/v3/company/historical-discounted-cash-flow/AAPL?period=quarter
 
+**[⬆ back to top](#table-of-contents)**
 ---
 
 # Stock Time Series
@@ -236,6 +262,7 @@ Multiple companies Prices
 
 https://financialmodelingprep.com/api/v3/stock/real-time-price/AAPL,FB,GOOG
 
+**[⬆ back to top](#table-of-contents)**
 ---
 
 # Stock Market
@@ -296,6 +323,7 @@ Stock Market Sectors Performance
 
 https://financialmodelingprep.com/api/v3/stock/sectors-performance
 
+**[⬆ back to top](#table-of-contents)**
 ---
 
 # Cryptocurrencies
@@ -316,6 +344,7 @@ This API provide a wide range of data feed for most digital and crypto currency 
 
 https://financialmodelingprep.com/api/v3/cryptocurrency/BTC
 
+**[⬆ back to top](#table-of-contents)**
 ---
 
 # Forex
