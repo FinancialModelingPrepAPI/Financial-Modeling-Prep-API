@@ -216,25 +216,55 @@ https://financialmodelingprep.com/api/v3/company/historical-discounted-cash-flow
  
 ## Stock Historical Price
 
- **Historical price**
+**1min Historical price**
 
-Stock historical prices
+Stock 1min historical prices
+
+https://financialmodelingprep.com/api/v3/historical-chart/1min/AAPL
+
+**5min Historical price**
+
+Stock 5min historical prices
+
+https://financialmodelingprep.com/api/v3/historical-chart/5min/AAPL
+
+**15min Historical price**
+
+Stock 15min historical prices
+
+https://financialmodelingprep.com/api/v3/historical-chart/15min/AAPL
+
+**30min Historical price**
+
+Stock 30min historical prices
+
+https://financialmodelingprep.com/api/v3/historical-chart/30min/AAPL
+
+**1hour Historical price**
+
+Stock 1hour historical prices
+
+https://financialmodelingprep.com/api/v3/historical-chart/1hour/AAPL
+
+ **Daily Historical price**
+
+Stock Daily historical prices
 
 https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?serietype=line
 
- **Historical price with change and volume**
+ **Daily Historical price with change and volume**
 
 Stock historical prices with change and volume
 
 https://financialmodelingprep.com/api/v3/historical-price-full/AAPL
 
- **Historical price with change and volume interval**
+ **Daily Historical price with change and volume interval**
  
  Time series stock historical prices for a certain interval
  
  https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?from=2018-03-12&to=2019-03-12
  
-  **Historical price with change and volume Time series**
+  **Daily Historical price with change and volume Time series**
  
  Time series stock historical prices with change and volume for the last x days
  
