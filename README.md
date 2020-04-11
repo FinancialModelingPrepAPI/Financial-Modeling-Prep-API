@@ -393,6 +393,6 @@ https://financialmodelingprep.com/api/v3/forex
 
 Currency exchange rate such as Euro-dollars (EUR/USD)
 
-https://financialmodelingprep.com/api/forex/v3/EURUSD
+https://financialmodelingprep.com/api/v3/forex/EURUSD
 
 
