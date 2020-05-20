@@ -56,7 +56,7 @@
 This API returns companies profile (Price, Beta, Volume Average, Market Capitalisation, Last Dividend, 52 week range, stock price change, stock price change 
 in percentage, Company Name, Exchange, Description, Industry, Sector, CEO, Website and image).
 
-https://financialmodelingprep.com/api/v3/company/profile/AAPL
+https://financialmodelingprep.com/api/v3/profile/AAPL?apikey=demo
 
 ---
 
@@ -64,7 +64,7 @@ https://financialmodelingprep.com/api/v3/company/profile/AAPL
 
 This API returns companies quotes (symbol | price | change | previousClose | dayLow | dayHigh | yearHigh | yearLow | marketCap | priceAvg50 | priceAvg200 | volume | avgVolume) in real-time.
 
-https://financialmodelingprep.com/api/v3/quote/AAPL,FB
+https://financialmodelingprep.com/api/v3/quote/AAPL?apikey=demo
 
 ---
 
@@ -73,7 +73,7 @@ https://financialmodelingprep.com/api/v3/quote/AAPL,FB
 Stock Search by Company Name, Ticker Name and Stock Exchange
 Values for exchange parameter are: ETF | MUTUAL_FUND | COMMODITY | INDEX | CRYPTO | FOREX | TSX | AMEX | NASDAQ | NYSE | EURONEXT
 
-https://financialmodelingprep.com/api/v3/search?query=AA&limit=10&exchange=NASDAQ
+https://financialmodelingprep.com/api/v3/search?query=AA&limit=10&exchange=NASDAQ?apikey=demo
 
 ---
 
@@ -83,41 +83,41 @@ https://financialmodelingprep.com/api/v3/search?query=AA&limit=10&exchange=NASDA
  **Income statements**
 Annual income statements
 
-https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL
+https://financialmodelingprep.com/api/v3/income-statement/AAPL?apikey=demo
 
 Quarterly income statements
 
-https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL?period=quarter
+https://financialmodelingprep.com/api/v3/income-statement/AAPL?period=quarter&apikey=demo
 
 Downloadable CSV file:
 
-https://financialmodelingprep.com/api/v3/financials/income-statement/AAPL?datatype=csv
+https://financialmodelingprep.com/api/v3/income-statement/AAPL?datatype=csv&apikey=demo
 
  **Balance Sheet Statement**
 Annual balance sheet statements
 
-https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL
+https://financialmodelingprep.com/api/v3/balance-sheet-statement/AAPL?apikey=demo
 
 Quarterly balance sheet statements
 
-https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?period=quarter
+https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?period=quarter&apikey=demo
 
 Downloadable CSV file:
 
-https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?datatype=csv
+https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL?datatype=csv&apikey=demo
 
  **Cash Flow Statement**
  Annual cash flow statements
  
- https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL
+ https://financialmodelingprep.com/api/v3/cash-flow-statement/AAPL?apikey=demo
  
  Quarterly cash flow statements
  
- https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL?period=quarter
+ https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL?period=quarter&apikey=demo
  
  Downloadable CSV file:
   
- https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL?datatype=csv
+ https://financialmodelingprep.com/api/v3/financials/cash-flow-statement/AAPL?datatype=csv&apikey=demo
  
  ---
  
@@ -125,7 +125,7 @@ https://financialmodelingprep.com/api/v3/financials/balance-sheet-statement/AAPL
 
 Company financial ratios (liquidity Measurement Ratios, Profitability Indicator Ratios, Debt Ratios, Operating Performance Ratios, Cash Flow Indicator Ratios and Investment Valuation Ratios)
 
-https://financialmodelingprep.com/api/v3/financial-ratios/AAPL
+https://financialmodelingprep.com/api/v3/ratios/AAPL?apikey=demo
 
 ---
 
@@ -133,11 +133,11 @@ https://financialmodelingprep.com/api/v3/financial-ratios/AAPL
 
 Company annual enterprise value
 
-https://financialmodelingprep.com/api/v3/enterprise-value/AAPL
+https://financialmodelingprep.com/api/v3/enterprise-values/AAPL?apikey=demo
 
 Company quarterly enterprise value
 
-https://financialmodelingprep.com/api/v3/enterprise-value/AAPL?period=quarter
+https://financialmodelingprep.com/api/v3/enterprise-value/AAPL?period=quarter&apikey=demo
 
 ---
 
@@ -145,11 +145,11 @@ https://financialmodelingprep.com/api/v3/enterprise-value/AAPL?period=quarter
 
 Company annual key metrics
 
-https://financialmodelingprep.com/api/v3/company-key-metrics/AAPL
+https://financialmodelingprep.com/api/v3/key-metrics/AAPL?apikey=demo
 
 Company quarterly company key metrics
 
-https://financialmodelingprep.com/api/v3/company-key-metrics/AAPL?period=quarter
+https://financialmodelingprep.com/api/v3/key-metrics/AAPL?period=quarter&apikey=demo
 
 ---
 
@@ -157,11 +157,11 @@ https://financialmodelingprep.com/api/v3/company-key-metrics/AAPL?period=quarter
 
 Company annual financial statement growth
 
-https://financialmodelingprep.com/api/v3/financial-statement-growth/AAPL
+https://financialmodelingprep.com/api/v3/financial-growth/AAPL?apikey=demo
 
 Company quarterly financial statement growth
 
-https://financialmodelingprep.com/api/v3/financial-statement-growth/AAPL?period=quarter
+https://financialmodelingprep.com/api/v3/financial-growth/AAPL?period=quarter&apikey=demo
 
 ---
 
@@ -169,7 +169,7 @@ https://financialmodelingprep.com/api/v3/financial-statement-growth/AAPL?period=
 
 This API returns companies rating.
 
-https://financialmodelingprep.com/api/v3/company/rating/AAPL
+https://financialmodelingprep.com/api/v3/rating/AAPL?apikey=demo
 
 ---
 
@@ -179,17 +179,17 @@ https://financialmodelingprep.com/api/v3/company/rating/AAPL
 
 This API returns companies Discounted cash flow value (intrinsic value).
 
-https://financialmodelingprep.com/api/v3/company/discounted-cash-flow/AAPL
+https://financialmodelingprep.com/api/v3/discounted-cash-flow/AAPL?apikey=demo
 
  **Historical DCF**
  
 Companies Historical Discounted cash flow value
 
-https://financialmodelingprep.com/api/v3/company/historical-discounted-cash-flow/AAPL
+https://financialmodelingprep.com/api/v3/historical-discounted-cash-flow/AAPL?apikey=demo
 
 Companies Historical Discounted cash flow value
 
-https://financialmodelingprep.com/api/v3/company/historical-discounted-cash-flow/AAPL?period=quarter
+https://financialmodelingprep.com/api/v3/historical-discounted-cash-flow/AAPL?period=quarter&apikey=demo
 
 **[⬆ back to top](#table-of-contents)**
 ---
@@ -220,61 +220,61 @@ https://financialmodelingprep.com/api/v3/company/historical-discounted-cash-flow
 
 Stock 1min historical prices
 
-https://financialmodelingprep.com/api/v3/historical-chart/1min/AAPL
+https://financialmodelingprep.com/api/v3/historical-chart/1min/AAPL?apikey=demo
 
 **5min Historical price**
 
 Stock 5min historical prices
 
-https://financialmodelingprep.com/api/v3/historical-chart/5min/AAPL
+https://financialmodelingprep.com/api/v3/historical-chart/5min/AAPL?apikey=demo
 
 **15min Historical price**
 
 Stock 15min historical prices
 
-https://financialmodelingprep.com/api/v3/historical-chart/15min/AAPL
+https://financialmodelingprep.com/api/v3/historical-chart/15min/AAPL?apikey=demo
 
 **30min Historical price**
 
 Stock 30min historical prices
 
-https://financialmodelingprep.com/api/v3/historical-chart/30min/AAPL
+https://financialmodelingprep.com/api/v3/historical-chart/30min/AAPL?apikey=demo
 
 **1hour Historical price**
 
 Stock 1hour historical prices
 
-https://financialmodelingprep.com/api/v3/historical-chart/1hour/AAPL
+https://financialmodelingprep.com/api/v3/historical-chart/1hour/AAPL?apikey=demo
 
  **Daily Historical price**
 
 Stock Daily historical prices
 
-https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?serietype=line
+https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?serietype=line&apikey=demo
 
  **Daily Historical price with change and volume**
 
 Stock historical prices with change and volume
 
-https://financialmodelingprep.com/api/v3/historical-price-full/AAPL
+https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?apikey=demo
 
  **Daily Historical price with change and volume interval**
  
  Time series stock historical prices for a certain interval
  
- https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?from=2018-03-12&to=2019-03-12
+ https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?from=2018-03-12&to=2019-03-12&apikey=demo
  
   **Daily Historical price with change and volume Time series**
  
  Time series stock historical prices with change and volume for the last x days
  
- https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?timeseries=5
+ https://financialmodelingprep.com/api/v3/historical-price-full/AAPL?timeseries=5&apikey=demo
  
   **Batch Request Stock Historical price**
 
  Stock historical prices with change and volume (limited to 3)
  
- https://financialmodelingprep.com/api/v3/historical-price-full/AAPL,GOOG,FB
+ https://financialmodelingprep.com/api/v3/historical-price-full/AAPL,GOOG,FB&apikey=demo
  
  ---
  
@@ -282,7 +282,7 @@ https://financialmodelingprep.com/api/v3/historical-price-full/AAPL
  
  All Companies ticker symbols available in Financial Modeling Prep
  
- https://financialmodelingprep.com/api/v3/company/stock/list
+ https://financialmodelingprep.com/api/v3/stock/list?apikey=demo
 
 ---
 
@@ -305,13 +305,13 @@ https://financialmodelingprep.com/api/v3/stock/real-time-price/AAPL,FB,GOOG
 
 Majors Indexes (Dow Jones, Nasdaq, S&P 500)
 
-https://financialmodelingprep.com/api/v3/majors-indexes
+https://financialmodelingprep.com/api/v3/quote/%5EDJI,%5EGSPC,%5EIXIC?apikey=demo
 
 **Single Stock Market Index such as Dow Jones**
 
 Stock market index (Dow Jones)
 
-https://financialmodelingprep.com/api/v3/majors-indexes/.DJI
+https://financialmodelingprep.com/api/v3/quote/%5EDJI?apikey=demo
 
 ---
 
@@ -319,7 +319,7 @@ https://financialmodelingprep.com/api/v3/majors-indexes/.DJI
 
 Most Active Stock Companies
 
-https://financialmodelingprep.com/api/v3/stock/actives
+https://financialmodelingprep.com/api/v3/actives?apikey=demo
 
 ---
 
@@ -327,7 +327,7 @@ https://financialmodelingprep.com/api/v3/stock/actives
 
 Most Gainer Stock Companies
 
-https://financialmodelingprep.com/api/v3/stock/gainers
+https://financialmodelingprep.com/api/v3/gainers?apikey=demo
 
 ---
 
@@ -335,7 +335,7 @@ https://financialmodelingprep.com/api/v3/stock/gainers
 
 Most Losers Stock Companies
 
-https://financialmodelingprep.com/api/v3/stock/losers
+https://financialmodelingprep.com/api/v3/losers?apikey=demo
 
 ---
 
@@ -343,7 +343,7 @@ https://financialmodelingprep.com/api/v3/stock/losers
 
 NYSE Holidays and Trading Hours
 
-https://financialmodelingprep.com/api/v3/is-the-market-open
+https://financialmodelingprep.com/api/v3/market-hours?apikey=demo
 
 ---
 
@@ -351,7 +351,7 @@ https://financialmodelingprep.com/api/v3/is-the-market-open
 
 Stock Market Sectors Performance
 
-https://financialmodelingprep.com/api/v3/stock/sectors-performance
+https://financialmodelingprep.com/api/v3/sectors-performance?apikey=demo
 
 **[⬆ back to top](#table-of-contents)**
 ---
@@ -364,7 +364,7 @@ https://financialmodelingprep.com/api/v3/stock/sectors-performance
 
 Wide range of data feed for digital and Cryptocurrencies
 
-https://financialmodelingprep.com/api/v3/cryptocurrencies
+https://financialmodelingprep.com/api/v3/quotes/cryto?apikey=demo
 
 ---
 
@@ -372,7 +372,7 @@ https://financialmodelingprep.com/api/v3/cryptocurrencies
 
 This API provide a wide range of data feed for most digital and crypto currency such as Bitcoin.
 
-https://financialmodelingprep.com/api/v3/cryptocurrency/BTC
+https://financialmodelingprep.com/api/v3/quote/BTCUSD?apikey=demo
 
 **[⬆ back to top](#table-of-contents)**
 ---
@@ -385,7 +385,7 @@ https://financialmodelingprep.com/api/v3/cryptocurrency/BTC
 
 Currency exchange rates (FX)
 
-https://financialmodelingprep.com/api/v3/forex
+https://financialmodelingprep.com/api/v3/fx?apikey=demo
 
 ---
 
@@ -393,6 +393,6 @@ https://financialmodelingprep.com/api/v3/forex
 
 Currency exchange rate such as Euro-dollars (EUR/USD)
 
-https://financialmodelingprep.com/api/v3/forex/EURUSD
+https://financialmodelingprep.com/api/v3/fx/EURUSD?apikey=demo
 
 
