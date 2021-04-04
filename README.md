@@ -4,7 +4,8 @@
   Financial Modeling Prep API
 </h1>
 
-<h4>A <a href="https://financialmodelingprep.com/developer/docs">financial statement API</a> free for everyone, you can also find real-time stock prices and historical stock data prices.</h4>
+<h4>A <a href="https://financialmodelingprep.com/developer/docs">financial statement API</a> free for everyone, you can also find real-time stock prices and historical stock data prices, you can create an apikey on the documentation to start using this <a href="https://financialmodelingprep.com/developer/docs"> stock API</a> </h4>
+
 
 📖Official page: https://financialmodelingprep.com/developer/docs 
 🛠Support: info@financialmodelingprep.com
