@@ -1,0 +1,11 @@
+using (var httpClient = new HttpClient())
+
+{
+	using (var request = new HttpRequestMessage(new HttpMethod("GET"), "https://financialmodelingprep.com/api/v3/income-statement/AAPL?apikey=0afb2ef442b712afa5c85b022d5a1f6e"))
+
+	{
+		request.Headers.TryAddWithoutValidation("Upgrade-Insecure-Requests", "1");
+
+		var response = await httpClient.SendAsync(request);
+	}
+}

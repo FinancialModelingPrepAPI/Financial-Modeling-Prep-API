@@ -1,0 +1,12 @@
+require(httr)
+
+headers = c(
+  `Upgrade-Insecure-Requests` = '1'
+)
+
+params = list(
+  `datatype` = 'json',
+  `apikey` = `YOUR_API_KEY`
+)
+
+res <- httr::GET(url = 'https://financialmodelingprep.com/api/v3/income-statement/AAPL', httr::add_headers(.headers=headers), query = params)

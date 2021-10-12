@@ -1,0 +1,18 @@
+version: 2
+requests:
+  curl_converter:
+    request:
+      url: 'https://financialmodelingprep.com/api/v3/income-statement/AAPL'
+      method: GET
+      headers:
+        -
+          name: Upgrade-Insecure-Requests
+          value: '1'
+        -
+      queryString:
+        -
+          name: datatype
+          value: json
+        - 
+          name: apikey
+          value: YOUR_API_KEY
