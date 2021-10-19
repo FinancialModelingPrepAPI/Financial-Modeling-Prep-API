@@ -5,7 +5,7 @@
 
 <img src="https://i.imgur.com/NLcyWxh.jpg" alt="Financial Statement API" width="150" align="right">
 
-<h3>Free <a href="https://financialmodelingprep.com/developer/docs">financial statement API</a>. <br> Real-time and historical data of stock prices.</h3>
+<h3>Free <a href="https://financialmodelingprep.com/developer/docs">Financial Statement API</a>. <br> Real-time and historical data of stock prices.</h3>
 
 Supports over **25000 stocks** across multiple exchanges. <br />
 <br />
