@@ -57,7 +57,7 @@ Use our data that goes up to 30 years back in history. Earnings calendar, financ
 <h2> How to use it? </h2>
 Simply call endpoints — and get the result. <br />
 
-```javascript
+```json
 https://financialmodelingprep.com/api/v3/income-statement/AAPL?limit=120&apikey=YOUR_API_KEY
 
 [ {
